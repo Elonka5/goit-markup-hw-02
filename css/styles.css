@@ -7,7 +7,6 @@
     --accent-color:#E7E9FC;
     --cloud-color:#F4F4FD;
     --logo-text:#2196F3;
-
 }
 
 body {
@@ -16,7 +15,7 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
 }
-ul{
+ul {
     list-style: none;
 }
 
@@ -30,6 +29,7 @@ ul{
     text-decoration: none;
     text-transform: uppercase
 }
+
 .logo-text {
 color: var(--title-text-color);
 }
