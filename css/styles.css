@@ -32,7 +32,6 @@ ul {
 
 .link {
     text-decoration: none;
-    font-style: normal;
 }
 
 .logo-text {
@@ -60,11 +59,11 @@ color: var(--title-text-color);
     color: var(--cts-color);
 }
 
-.address-link {
+.address-nav {
     font-style: normal;
 }
 
-.adress-nav .address-link {
+.adress-nav .address {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -73,8 +72,9 @@ color: var(--title-text-color);
     font-style: normal;
 }
 
-.adress-nav .address-link:hover,
-.adress-nav .address-link:focus {
+
+.adress-nav .address:hover,
+.adress-nav .address:focus {
     color: var(--cts-color);
 }
 
@@ -153,6 +153,7 @@ color: var(--title-text-color);
 .list .text-advantages,
 .portfolio-title .text,
 .list .text-team {
+    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
 }
@@ -181,6 +182,7 @@ background-color: var(--cloud-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 /* Footer */
