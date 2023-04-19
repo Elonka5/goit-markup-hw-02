@@ -20,7 +20,7 @@ ul{
     list-style: none;
 }
 
-.logo {
+.link-logo {
     color: var(--iris);
     font-family: Raleway,sans-serif;
     font-weight: 800;
@@ -36,24 +36,36 @@ color: var(--title-text-color);
 
 /* Site nav */
 
-.site-nav .link {
+.list {
+    list-style: none
+}
+
+.list .link {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     text-decoration: none;
   }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.list .link:hover,
+.list .link:focus,
+.list .link-current:hover,
+.list .link-current:focus {
     color: var(--cts-color);
 }
 
-.site-nav .link.current{
+.list .link-current {
     color: var(--cts-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
 }
 .adress-nav .list {
     color: var(--primary-text-color);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
@@ -87,8 +99,11 @@ color: var(--title-text-color);
 
 /* Hero */
 
-.hero-title {
+.hero{
     background-color: var(--title-text-color);
+}
+
+.hero-title {
     color:var(--primary-white-color);
     font-weight: 700;
     font-size: 56px;
@@ -98,6 +113,7 @@ color: var(--title-text-color);
 }
 .hero-block-button {
     background:var(--iris);
+    color: var(--primary-white-color);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -123,18 +139,19 @@ color: var(--title-text-color);
 }
 
 /* Advantages */
-.advantages-list .title {
+.list-advantages .title {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 /* Advantages,Portfolio,Team */
 
-.advantages-list .text,
+.list-advantages .text,
 .portfolio-title .text,
-.team-list .text {
+.list-team .text {
     font-size: 16px;
     line-height: 1.5;
 }
@@ -145,10 +162,10 @@ color: var(--title-text-color);
 background-color: var(--cloud-color);
 }
 
-.team-list{
+.list-team {
     background-color: var(--primary-white-color);
 }
-.team-list .title {
+.list-team .title {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
