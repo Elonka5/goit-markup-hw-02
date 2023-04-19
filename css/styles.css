@@ -19,7 +19,7 @@ ul {
     list-style: none;
 }
 
-.link-logo {
+.logo-link {
     color: var(--iris);
     font-family: Raleway,sans-serif;
     font-weight: 800;
@@ -27,7 +27,7 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .logo-text {
@@ -37,7 +37,7 @@ color: var(--title-text-color);
 /* Site nav */
 
 .list {
-    list-style: none
+    list-style: none;
 }
 
 .list .link {
@@ -50,30 +50,21 @@ color: var(--title-text-color);
   }
 
 .list .link:hover,
-.list .link:focus,
-.list .link-current:hover,
-.list .link-current:focus {
+.list .link:focus {
     color: var(--cts-color);
 }
 
-.list .link-current {
-    color: var(--cts-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    text-decoration: none;
-}
-.adress-nav .list {
+.adress-nav .address-link {
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
-    font-style: normal
+    font-style: normal;
 }
 
-.adress-nav .list:hover,
-.adress-nav .list:focus {
+.adress-nav .address-link:hover,
+.adress-nav .address-link:focus {
     color: var(--cts-color);
 }
 
@@ -135,11 +126,11 @@ color: var(--title-text-color);
     text-align: center;
     visibility: hidden;
     letter-spacing: 0.02em;
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 /* Advantages */
-.list-advantages .title {
+.list .title-advantages {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
@@ -149,9 +140,9 @@ color: var(--title-text-color);
 
 /* Advantages,Portfolio,Team */
 
-.list-advantages .text,
+.list .text-advantages,
 .portfolio-title .text,
-.list-team .text {
+.list .text-team {
     font-size: 16px;
     line-height: 1.5;
 }
