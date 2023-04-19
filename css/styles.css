@@ -59,6 +59,10 @@ color: var(--title-text-color);
     color: var(--cts-color);
 }
 
+.address-link {
+    font-style: normal;
+}
+
 .adress-nav .address-link {
     color: var(--primary-text-color);
     font-weight: 500;
