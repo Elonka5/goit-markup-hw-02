@@ -19,7 +19,7 @@ ul {
     list-style: none;
 }
 
-.logo-link {
+.logo {
     color: var(--iris);
     font-family: Raleway,sans-serif;
     font-weight: 800;
@@ -30,6 +30,10 @@ ul {
     text-transform: uppercase;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .logo-text {
 color: var(--title-text-color);
 }
@@ -38,6 +42,7 @@ color: var(--title-text-color);
 
 .list {
     list-style: none;
+    font-style: normal;
 }
 
 .list .link {
