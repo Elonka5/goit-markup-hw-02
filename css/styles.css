@@ -80,7 +80,7 @@ color: var(--title-text-color);
 /* Buttons */
 
 .btn-filter-option {
-    background-color:var(--accent-color);
+    background-color:var(--cloud-color);
     color: var(--iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
