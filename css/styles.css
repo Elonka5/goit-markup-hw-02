@@ -15,6 +15,7 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.02em;
 }
+
 ul {
     list-style: none;
 }
@@ -117,6 +118,9 @@ color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border-radius: 4px;
+    padding: 16px 32px;
+    border: none;
 }
 
 .hero-block-button:hover,
